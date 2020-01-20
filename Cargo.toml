@@ -1,0 +1,12 @@
+[package]
+authors = ["whfuyn <whfuyn@outlook.com>"]
+edition = "2018"
+name = "avltree"
+version = "0.1.0"
+
+[dependencies]
+rand = "0.7"
+
+[[bin]]
+name = "main"
+path = "./src/main.rs"
