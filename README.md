@@ -18,8 +18,8 @@ avl.delete(&1);
 ```
 
 ## Performance
-It's slightly faster than some other rust alternatives I found on github.
-However, it's nearly four times slower than std::collections::BTreeMap 
+It's slightly faster than some other safe rust alternatives I found on github.
+However, it's still nearly four times slower than std::collections::BTreeMap 
 and the C version AVL tree implemantation [avlmini](https://github.com/skywind3000/avlmini).
 
 
@@ -31,4 +31,6 @@ some-other-avltree-A: ~18s
 
 some-other-avltree-B: ~16s
 
-BTreeMap|avlmini|linus_rbtree: ~4s
+some-other-unsafe-avltree-C: ~13.5s
+
+BTreeMap|avlmini|linux_rbtree: ~4s
