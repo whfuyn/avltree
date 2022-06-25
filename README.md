@@ -1,4 +1,11 @@
 # avltree
+
+> Update:
+> 
+> This project is unsound due to the violation that `UnsafeCell` is the only legitimate way to get interior mutability.
+> 
+> See [Interior Mutability](https://doc.rust-lang.org/stable/reference/interior-mutability.html?highlight=internal%20mu#interior-mutability)
+
 A rust implementation of AVL Tree. 
 
 I start this project for a better understanding of the unsafe part of rust,
